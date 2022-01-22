@@ -1,4 +1,4 @@
-# tp770cf
+# TP770CF
 PCB layout for an adapter from the ThinkPad 770 series IDE port to CompactFlash. 
 
 **Please note:** This design has *not* been tested - it is possible that it contains mistakes or omissions, and I take no responsibility for potential damage to any machine it is connected to, nor any potential loss of data which may result from its use. I am relasing this as [https://www.oshwa.org][Open-Source Hardware] in the hope that others can help verify the design. 
@@ -44,8 +44,15 @@ CF  Function  Caddy   IDE   Caddy  Function  CF
 * Connections include DMARQ & DMACK, which are required for DMA operation.
 
 ![orientation](https://user-images.githubusercontent.com/196348/150650259-b124dd97-5db0-49e4-94f7-07f6595ab1a8.jpg)
-
+### Layout
 This is how the tracks are laid out (copper pours not shown here): 
+
 ![TP770_IDE-brd svg](https://user-images.githubusercontent.com/196348/150650939-2b1d31ca-ef51-49c7-81a5-fa32e32f8fd1.png)
+
+A 3D preview of the finished board: 
+
+![tp770cf_01](https://user-images.githubusercontent.com/196348/150651044-0dd0e29d-54b4-4504-937b-e863a3c1cb48.png)
+
+
 
 
