@@ -1,7 +1,7 @@
 # TP770CF
 PCB layout for an adapter from the ThinkPad 770 series IDE port to CompactFlash. 
 
-**Please note:** This design has *not* been tested - it is possible that it contains mistakes or omissions, and I take no responsibility for potential damage to any machine it is connected to, nor any potential loss of data which may result from its use. I am relasing this as [https://www.oshwa.org][Open-Source Hardware] in the hope that others can help verify the design. 
+**Please note:** This design has *not* been tested - it is possible that it contains mistakes or omissions, and I take no responsibility for potential damage to any machine it is connected to, nor any potential loss of data which may result from its use. I am relasing this as [Open-Source Hardware](https://www.oshwa.org) in the hope that others can help verify the design.
 
 This board should allow you to plug a CF card directly into the on-board proprietary IDE connector, obviating the need for the caddy. The PCB is double sided and should have either 0.8 or 1mm thickness (untested). This is how the pins are connected: 
 
