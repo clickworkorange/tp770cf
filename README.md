@@ -50,11 +50,11 @@ CF  Function  Caddy   IDE   Caddy  Function  CF
 ### Layout
 This is how the tracks are laid out (copper pours not shown here): 
 
-![TP770_IDE-brd svg](https://user-images.githubusercontent.com/196348/150650939-2b1d31ca-ef51-49c7-81a5-fa32e32f8fd1.png)
+![TP770_IDE-brd svg](TP770_IDE-brd.svg.png)
 
 A 3D preview of the finished board: 
 
-![tp770cf_01](https://user-images.githubusercontent.com/196348/150651044-0dd0e29d-54b4-4504-937b-e863a3c1cb48.png)
+![tp770cf_01](tp770cf_01.png)
 
 
 
