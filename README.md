@@ -58,7 +58,7 @@ A 3D preview of the finished board:
 
 ### About the CF connector
 
-The CompactFlash connector used is a [https://multimedia.3m.com/mws/media/22365O/3mtm-cf-card-header-compactflashtm-type-i-sm-ts0662.pdf](3M N7E50-7516), which should be easy to source from electronic component suppliers. Many (most?) other surface mount CF sockets use the same 0.635mm pitch PCB pad layout, so you can probably get away with using a different model, though the mounting holes may differ. 
+The CompactFlash connector used is a [3M N7E50-7516](https://multimedia.3m.com/mws/media/22365O/3mtm-cf-card-header-compactflashtm-type-i-sm-ts0662.pdf), which should be easy to source from electronic component suppliers. Many (most?) other surface mount CF sockets use the same 0.635mm pitch PCB pad layout, so you can probably get away with using a different model, though the mounting holes may differ. 
 
 Here's a video that shows how to solder the very fine pitch CF connector with a regular soldering iron and solder paste: 
 
