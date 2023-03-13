@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name TP770_IDE)(type Legacy)(uri "/home/ola/Projects/Thinkpad 770 IDE to CF/TP770_IDE/TP770_IDE.lib")(options "")(descr ""))
+  (lib (name "TP770_IDE")(type "Legacy")(uri "/home/ola/Projects/Thinkpad 770 IDE to CF/TP770_IDE/TP770_IDE.lib")(options "")(descr ""))
+  (lib (name "TP770_IDE-rescue")(type "Legacy")(uri "${KIPRJMOD}/TP770_IDE-rescue.lib")(options "")(descr ""))
 )

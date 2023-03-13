@@ -13,7 +13,10 @@
    viewBox="0 0 41666.695 31250.03"
    id="svg3372"
    sodipodi:docname="TP770_IDE-brd.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="/home/ola/Projects/Thinkpad 770 IDE to CF/tp770cf/TP770_IDE-brd.svg.png"
+   inkscape:export-xdpi="281.38"
+   inkscape:export-ydpi="281.38">
   <metadata
      id="metadata3378">
     <rdf:RDF>
@@ -41,14 +44,15 @@
      inkscape:window-height="713"
      id="namedview3374"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="646.89511"
-     inkscape:cy="375.68934"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="174.89793"
+     inkscape:cy="149.39997"
      inkscape:window-x="0"
      inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     units="px" />
+     units="px"
+     inkscape:snap-global="false" />
   <title
      id="title2">SVG Picture created as TP770_IDE-brd.svg date 2022/01/21 02:50:24 </title>
   <desc
@@ -58,6 +62,13 @@
      id="layer1"
      inkscape:label="Layer 1"
      transform="translate(0,-51429.962)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:196.85055542;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.6;paint-order:stroke markers fill"
+       id="rect1881"
+       width="28431.607"
+       height="21286.877"
+       x="6923.7593"
+       y="56310.773" />
     <path
        style="fill:#c4a000;fill-opacity:1;stroke:#73d216;stroke-width:59.05508804;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="M 35173.559,77415.935 H 9976.5638 l -0.35,-4134.149 c -0.38,-108.867 -88.533,-196.98 -196.95,-196.9 h -2362.099 c -109.117,-0.08 -197.23,-88.233 -196.9,-196.95 V 61273.838 c -0.272,-108.778 87.822,-196.87 196.9,-196.9 h 2362.099 c 108.456,0.03 196.628,-88.144 196.95,-196.45 l 0.35,-4330.548 H 35173.559 Z"
