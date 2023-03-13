@@ -4,9 +4,9 @@ PCB layout for an adapter from the ThinkPad 770 series IDE port to CompactFlash.
 ![CC-BY-SA](https://user-images.githubusercontent.com/196348/150651299-b4cf1675-0e30-4e27-99a1-4acd12404e10.png)
 
 
-**Please note:** This design has *not* been tested - it is possible that it contains mistakes or omissions, and I take no responsibility for potential damage to any machine it is connected to, nor any potential loss of data which may result from its use. I am relasing this as [Open-Source Hardware](https://www.oshwa.org) in the hope that others can help verify the design. The PCB was created with [Kicad](https://www.kicad.org), a free and open source schematic capture and PCB layout package. 
+**Please note:** This design has *not* been tested - it is possible that it contains mistakes or omissions, and I take no responsibility for potential damage to any machine it is connected to, nor any potential loss of data which may result from its use. I am relasing this as [Open-Source Hardware](https://www.oshwa.org) in the hope that others will find it useful and can help verify the design. The PCB was created with [Kicad](https://www.kicad.org), a free and open source schematic capture and PCB layout package. 
 
-This board should allow you to plug a CF card directly into the on-board proprietary IDE connector, obviating the need for the caddy. The PCB is double sided and should have either 0.8 or 1mm thickness (untested). This is how the pins are connected: 
+This board should allow you to plug a CF card directly into the on-board proprietary IDE connector, obviating the need for the caddy. This project came about after trying to identify the original on-board connector and realising that a PCB card-edge connection could be an alternative. Unfortunately the routing allowed very few straight-through connections - it might have been less complicated if I put the CF socket on the bottom instead, but due to the position of the caddy connector I doubt that would leave enough room for the CF card & socket. The PCB is double sided and should be made in either 0.8 or 1mm thickness to mate with the connector (measurement needed). This is how the pins are connected: 
 
 ````
 CF  Function  Caddy   IDE   Caddy  Function  CF
@@ -38,11 +38,11 @@ CF  Function  Caddy   IDE   Caddy  Function  CF
      GND       59    43 44    57   TYPE       
 ````
 **Notes**
-* Caddy pin #1 is top left when facing connector on caddy, pin #60 bottom right (see picture below).
+* Caddy pin 1 is top left when facing connector on caddy, pin 60 bottom right (see picture below).
 * Caddy pins 9, 15, 20, 21, 26, 27, 31, 48, 55 and 58 are connected to GND.
 * Caddy pins 2, 16 and 60 appear to be n/c.
-* CF socket pins #13, #36 and #38 should be connected to +5V.
-* CF socket pins #1, #8-12, #14-17, #25, #26 and #50 should be connected to GND.
+* CF socket pins 13, 36 and 38 are connected to +5V.
+* CF socket pins 1, 8-12, 14-17, 25, 26 and 50 are connected to GND.
 * The CF card is hard wired as master.
 * Connections include DMARQ & DMACK, which are required for DMA operation.
 
@@ -50,12 +50,17 @@ CF  Function  Caddy   IDE   Caddy  Function  CF
 ### Layout
 This is how the tracks are laid out (copper pours not shown here): 
 
-![TP770_IDE-brd svg](https://user-images.githubusercontent.com/196348/150650939-2b1d31ca-ef51-49c7-81a5-fa32e32f8fd1.png)
+![TP770_IDE-brd svg](TP770_IDE-brd.svg.png)
 
 A 3D preview of the finished board: 
 
-![tp770cf_01](https://user-images.githubusercontent.com/196348/150651044-0dd0e29d-54b4-4504-937b-e863a3c1cb48.png)
+![tp770cf_01](tp770cf_01.png)
 
+### About the CF connector
 
+The CompactFlash connector used is a [3M N7E50-7516](https://multimedia.3m.com/mws/media/22365O/3mtm-cf-card-header-compactflashtm-type-i-sm-ts0662.pdf), which should be easy to source from electronic component suppliers. Many (most?) other surface mount CF sockets use the same 0.635mm pitch PCB pad layout, so you can probably get away with using a different model, though the mounting holes may differ. 
 
+Here's a video that shows how to solder the very fine pitch CF connector with a regular soldering iron and solder paste: 
+
+[![Compact Flash (CF) socket soldering on ISA XT-CF-Lite V4 #1](https://user-images.githubusercontent.com/196348/151232514-5f58502e-b709-417d-9826-0fc622467783.png)](https://www.youtube.com/watch?v=bqBJUXM2CtE)
 
